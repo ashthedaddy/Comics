@@ -1,0 +1,667 @@
+.app {
+
+  text-align: center;
+}
+.slideLeft {
+  animation-name: slideLeft;
+  -webkit-animation-name: slideLeft;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+  visibility: visible !important;
+  animation-count: 1;
+  animation-delay: 0s;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(150%);
+  }
+  50% {
+    transform: translateX(-8%);
+  }
+  65% {
+    transform: translateX(4%);
+  }
+  80% {
+    transform: translateX(-4%);
+  }
+  95% {
+    transform: translateX(2%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@-webkit-keyframes slideLeft {
+  0% {
+    -webkit-transform: translateX(150%);
+  }
+  50% {
+    -webkit-transform: translateX(-8%);
+  }
+  65% {
+    -webkit-transform: translateX(4%);
+  }
+  80% {
+    -webkit-transform: translateX(-4%);
+  }
+  95% {
+    -webkit-transform: translateX(2%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+  }
+}
+.slideExpandUp {
+  animation-name: slideExpandUp;
+  -webkit-animation-name: slideExpandUp;
+  animation-duration: 1.6s;
+  -webkit-animation-duration: 1.6s;
+  animation-timing-function: ease-out;
+  -webkit-animation-timing-function: ease -out;
+  visibility: visible !important;
+  animation-count: 1;
+  animation-delay: 0s;
+}
+
+@keyframes slideExpandUp {
+  0% {
+    transform: translateY(100%) scaleX(0.5);
+  }
+  30% {
+    transform: translateY(-8%) scaleX(0.5);
+  }
+  40% {
+    transform: translateY(2%) scaleX(0.5);
+  }
+  50% {
+    transform: translateY(0%) scaleX(1.1);
+  }
+  60% {
+    transform: translateY(0%) scaleX(0.9);
+  }
+  70% {
+    transform: translateY(0%) scaleX(1.05);
+  }
+  80% {
+    transform: translateY(0%) scaleX(0.95);
+  }
+  90% {
+    transform: translateY(0%) scaleX(1.02);
+  }
+  100% {
+    transform: translateY(0%) scaleX(1);
+  }
+}
+
+@-webkit-keyframes slideExpandUp {
+  0% {
+    -webkit-transform: translateY(100%) scaleX(0.5);
+  }
+  30% {
+    -webkit-transform: translateY(-8%) scaleX(0.5);
+  }
+  40% {
+    -webkit-transform: translateY(2%) scaleX(0.5);
+  }
+  50% {
+    -webkit-transform: translateY(0%) scaleX(1.1);
+  }
+  60% {
+    -webkit-transform: translateY(0%) scaleX(0.9);
+  }
+  70% {
+    -webkit-transform: translateY(0%) scaleX(1.05);
+  }
+  80% {
+    -webkit-transform: translateY(0%) scaleX(0.95);
+  }
+  90% {
+    -webkit-transform: translateY(0%) scaleX(1.02);
+  }
+  100% {
+    -webkit-transform: translateY(0%) scaleX(1);
+  }
+}
+.circle{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.comic-buttons button {
+  margin-left: 20px;
+    padding: 3px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: 600;
+    background-color: #f5b921;
+    border: 1px solid rgb(138, 137, 137);
+    border-radius: 3px;
+    color: white;
+
+}
+.comic-card button{
+ 
+    padding: 3px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: 600;
+    background-color: #f5b921;
+    border: 1px solid rgb(138, 137, 137);
+    border-radius: 3px;
+    color: white;
+}
+.comic-card  button:hover{
+  background-color: white;
+  transition: 0.3s ease;
+  color: black;
+}
+
+.comic-details h3{
+  margin: 0px;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.comic-card h3{
+  margin: 0px;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.other-details p span{
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+.other-details p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 32px;
+  margin: 0px;
+  color: rgb(65, 65, 65);
+}
+.comic-buttons button:hover{
+  background-color: white;
+  transition: 0.3s ease;
+  color: black;
+}
+.upper-portions{
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: center;
+  margin-bottom: 5px;
+  gap: 5px;
+  margin-top: 50px;
+
+}
+.comic-details{
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px 0px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin-bottom: 50px;
+}
+body{
+  background-color: #2c3e50;
+}
+.search-bar{
+  width: 70%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.other-details{
+  width: 30%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+.comic-item {
+  text-align: center;
+}
+
+.comic-item img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.app h2 {
+  font-size: 40px;
+  font-family: cursive;
+}
+
+/* .app ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.app ul li {
+  margin: 2px;
+  background-color: lightgray;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 2px;
+  font-size: 14px;
+} */
+
+.comic-details p span {
+  font-weight: 700;
+}
+
+.search-bar input {
+  padding: 5px;
+  font-size: 15px;
+  outline: none;
+  border-radius: 6px;
+  border: 1px solid #a39e9e;
+  width: 80%;
+}
+
+.search-bar button{
+  outline: none;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 15px;
+  margin-left: -10px;
+  border-radius: 6px;
+  border: 1px solid #a39e9e;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+.search-bar button:hover{
+  background-color: #3e4346;
+  transition: 0.3s ease;
+  color:white;
+}
+@media(max-width:768px){
+  .app {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.comic-details img{
+  width: 100%;
+}
+
+.comic-buttons button {
+  margin-left: 10px;
+  padding: 6px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+}
+.favorites-grid {
+  column-count: 3;
+  --webkit-column-count: 3;
+  --moz-column-count: 3;
+  gap: 5px;
+  direction: rtl;
+  
+}
+.favorites-grid img{
+  width: 100%;
+  
+}
+
+.comic-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  height: fit-content;
+  break-inside: avoid;
+  
+}
+.favorites-section{
+  width: 95%;
+  margin: 0 auto;
+}
+/* You can further style .comic-card as per your requirements */
+body{
+  overflow-x: hidden;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.favorites-section  .h3{
+  font-size: 30px;
+    font-family: cursive;
+}
+.collections-section {
+  /* Your existing styles for the collections-section */
+  width: 95%;
+  margin: 0 auto;
+}
+
+.comic-container {
+  column-count: 3;
+  --webkit-column-count: 3;
+  --moz-column-count: 3;
+  gap: 5px;
+  direction: rtl;
+}
+
+.comic-item {
+  flex: 1;
+  max-width: calc(100% - 10px); /* Two items per row with a 10px gap */
+  /* Your styles for each comic item */
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  break-inside: avoid;
+}
+.comic-item button {
+  padding: 3px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-weight: 600;
+  background-color: #f5b921;
+    border: 1px solid rgb(138, 137, 137);
+  border-radius: 3px;
+  color: white;
+}
+.collections-section .h3 {
+  font-size: 30px;
+  font-family: cursive;
+}
+.comic-item h3 {
+  margin: 0px;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.comic-item  button:hover{
+  background-color: white;
+  transition: 0.3s ease;
+  color: black;
+}
+.navbar {
+  background-color: #8aa1b1;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  max-width: 1500px;
+}
+
+.main-container{
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color:rgba(0,0,0,0.3);
+}
+
+.nav-logo {
+  color: #f5b921;
+  align-items: center;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  flex-grow: 1;
+  display: flex;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  margin-right: 2rem;
+}
+
+.nav-links {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+  border-bottom: 3px solid transparent;
+}
+.fa-code {
+  margin-left: 1rem;
+}
+
+.nav-item {
+  line-height: 40px;
+  margin-right: 1rem;
+}
+
+.nav-item:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  transition: width 0.7s ease, background-color 0.5s ease;
+}
+
+.nav-item:hover:after {
+  width: 100%;
+  background: #ffdd40;
+}
+
+.nav-item.active {
+  color: #ffdd40;
+  border: 1px solid #ffdd40;
+}
+
+.nav-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-top: 1px solid #fff;
+    position: absolute;
+    top: 80px;
+    left: -110%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background-color: #8aa1b1;
+    left: 0px;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    padding: 0px;
+  }
+  .nav-item .active {
+    color: #ffdd40;
+    border: none;
+  }
+  .nav-links {
+    padding: 1.5rem;
+    width: 100%;
+    display: table;
+  }
+
+  .nav-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #ffdd40;
+  }
+}
+/* Add these styles to your CSS */
+
+.comic-image-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.comic-image-container:hover .comic-image {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  opacity: 0.5;
+}
+
+.comic-image {
+  width: 100%;
+  max-height: 100%;
+  transition: box-shadow 0.3s;
+}
+
+.zoom-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  font-size: 24px;
+}
+
+.comic-image-container:hover .zoom-icon {
+  display: block;
+}
+
+.image-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.image-popup img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  color: white;
+}
+/* CollectionsPage CSS */
+.search-bar{
+  overflow: hidden;
+  text-align: center;
+}
+.search-bar ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0px;
+}
+.search-bar ul li{
+  list-style: none;
+  background-color: #cacaca;
+  margin:3px;
+  padding: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+
+
+/* Style the comic items */
+.comic-item {
+  background-color: #f7f7f7;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Style the comic image container with hover effect */
+.comic-image-container {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+/* Style the comic image */
+.comic-image {
+  width: 100%;
+  height: auto;
+  transition: transform 0.2s;
+}
+
+/* Add zoom effect on hover */
+.comic-image-container:hover .comic-image {
+  transform: scale(1.1);
+}
+
+/* Style the zoom icon in the image container */
+.zoom-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 32px;
+  color: #fff;
+  display: none;
+}
+
+/* Show zoom icon on hover */
+.comic-image-container:hover .zoom-icon {
+  display: block;
+}
+
+
+@media(max-width:768px){
+  .upper-portions,.comic-details{
+    width: 95%;
+  }
+  .comic-container,.favorites-grid{
+    column-count: 1;
+    --webkit-column-count: 1;
+    --moz-column-count: 1;
+  }
+  .comic-item,.comic-card{
+    margin-bottom: 5px;
+
+  }
+}
